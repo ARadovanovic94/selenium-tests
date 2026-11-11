@@ -38,7 +38,7 @@ class TestExceptions:
 
     @pytest.mark.exceptions
 
-    def test_invalid_element_state_exception(self, driver):
+    def test_stale_element_reference_exception(self, driver):
         exceptions_page = ExceptionsPage(driver)
         exceptions_page.open()
         exceptions_page.add_second_row()
