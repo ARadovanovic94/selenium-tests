@@ -106,7 +106,6 @@ Each test uses its own browser session. Parallel browser runs require additional
 ## Current limitations
 
 - `test_small_numbers` currently expects `30` for `1 + 2`, so the full test suite includes a failing arithmetic test.
-- Two methods in `tests/test_exceptions.py` share the name `test_invalid_element_state_exception`. Python retains the later definition, so the earlier row-editing scenario is not collected.
 - The timeout scenario currently repeats the add-row check.
 - Implicit and explicit waits are both used; consolidating the waiting strategy would improve predictability.
 - Tests depend on an external practice website and may be affected by changes or downtime.
