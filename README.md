@@ -9,6 +9,8 @@ A Python UI test project using Selenium WebDriver and pytest to practice browser
 - Adding a dynamically loaded input row
 - Saving a value in the second row and checking the confirmation message
 - Checking that instructions disappear after adding a row
+- Editing and saving a value in the first input row
+- Checking that the second input row becomes visible after a delay
 
 The repository also contains small arithmetic tests used for pytest practice.
 
